@@ -4,7 +4,7 @@ class PriorityQueueSortedList:
         self._data = []
     
     def peek(self):
-        print(self._data[0])
+        print("Data prioritas tertinggi : {}" .format(self._data[0]))
 
     def add(self, n, p):
 
